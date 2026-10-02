@@ -1,0 +1,21 @@
+# Compiled files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+
+# Executable files
+app/pulse_generator
+app/analytics
+app/reset_counter
+
+# Kernel build files
+modules.order
+
+# Temporary files
+*.swp
+*.save
+
+# Runtime logs
+data/energy_log.csv
